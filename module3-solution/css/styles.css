@@ -1,1 +1,55 @@
+/* General styling */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+/* Make the brand name larger and bolder */
+.navbar-brand {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #333 !important;
+}
+
+/* Distinguish the dropdown menu background from the rest of the page */
+#mobile-menu {
+  background-color: #e7e7e7;
+  border-top: 1px solid #ccc;
+}
+
+/* Styling the menu items in the dropdown */
+.navbar-nav {
+  margin: 0;
+}
+.navbar-nav li a {
+  color: #333 !important;
+  font-size: 1.2em;
+}
+.navbar-nav li a:hover {
+  background-color: #ccc !important;
+}
+
+/* Page heading styling */
+#menu-heading {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Single really tall section styling */
+.content-box {
+  background-color: #a0a0a0; /* Distinguishing background color */
+  padding: 20px;
+  border: 1px solid #888;
+  height: 1000px; /* Forces the viewer to scroll down */
+  margin-bottom: 50px;
+}
+
+.content-box h3 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.content-box p {
+  color: #222;
+  line-height: 1.5;
+}
